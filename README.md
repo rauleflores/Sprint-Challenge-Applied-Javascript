@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    The DOM is how the browser interprets our code. The DOM builds a tree out of our raw HTML and from there we can manipulate the DOM to make our code do what we want without directly affecting our HTML. 
+
 2. What is an event?
+
+    Anything that the user does on a webpage (e.g. clicking, scrolling, keystrokes, loading a page, etc.)
 
 3. What is an event listener?
 
+    It is a function that listens or watches for a certain event to happen. It then does something when that event passes.
+
 4. Why would we convert a NodeList into an Array?
 
+    So that we can use array methods on it.
+
 5. What is a component?
+
+    A component is like a mold that gives shape to information you put or pass into.
 
 ### Git Set up
 
