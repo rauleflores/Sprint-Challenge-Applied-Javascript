@@ -48,7 +48,5 @@ function dateNow(){
 }
 
 const headerCont = document.querySelector('.header-container');
-
 const newHeader = Header(dateNow())
-
 headerCont.appendChild(newHeader);
