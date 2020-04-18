@@ -31,8 +31,8 @@ function cardInfo (response) {
             topicsArr = Object.entries(topics)
             topicsArr.forEach( items => {
                 const arrays = items[1]
-                arrays.forEach(item => {
-                   const cardI = Cards(item)
+                arrays.forEach(obj => {
+                   const cardI = Cards(obj)
                    cardsCont.appendChild(cardI)
                 })
             })
